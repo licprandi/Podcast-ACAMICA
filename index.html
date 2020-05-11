@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Podcast BlueDot</title>
+    <link rel="icon" type="image/png" href="./images/logo2.png">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/cf15cfbcb8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="barra-navegacion">
+        <input type="checkbox" id="menu_mobile"/>
+        <div class="cabecera">
+            <img src="./images/logo.svg" alt="imagen logo bd">
+            
+            <div class="transicion">
+                <label class="cambio-menu" for="menu_mobile">
+                    <img src="./images/bars-solid.svg" alt="imagen barra menu" id="apertura">
+                    <img src="./images/times-solid.svg" alt="imagen x cierre menu" id="cierre">
+                </label>
+            </div>
+        </div>
+        
+        <nav class="item-menu">
+            <ul>
+                <li><a href="#epi">Episodios</a></li>
+                <li><a href="#nos">Nosotros</a></li>
+                <li><a href="#ent">Entrevistas</a></li>
+                <li><a href="#top">Tópicos</a></li>
+            </ul>          
+        </nav> 
+    </header>
+    
+    <main class="main-titulo">
+        <h1>
+            <span>Hello</span>
+            <span>world</span>
+            <span>pale blue dot<span>.</span></span>
+        </h1>
+        <p class="desktop">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</P>
+        <p class="mobile">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+    </main>
+
+    <div class="boton-conoce">
+        <button id="conoce">CONOCÉ MÁS</button>
+    </div>
+
+    <section class="episodios">
+        <div class="episodios-diagonal"> 
+            <div class="episodios-contenido">
+                <h2 id="epi">Episodios</h2>
+                <div class="episodios-audios">
+                        <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                        <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                        <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                        <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nosotros">
+            <figure>
+                <img src="./images/phone.png" alt="Imagen con un telefono">
+            </figure>
+
+            <div class="equipo-texto">
+                <h2 id="nos">De dónde venimos</h2>
+                <div class="texto-parrafo">
+                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p><br>
+                    <p> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="entrevistas">
+        <h2 id="ent">Invitadas/os estelares</h2>
+        <figure class="invitados-img">
+            <img src="./images/1.png" alt="imagen de equipo 1">
+            <img src="./images/2.png" alt="imagen de equipo 2">
+            <img src="./images/3.png" alt="imagen de equipo 3">
+            <img src="./images/4.png" alt="imagen de equipo 4">
+            <img src="./images/5.png" alt="imagen de equipo 5">
+            <img src="./images/6.png" alt="imagen de equipo 6">
+        </figure>
+    </section>
+
+    <section  class="temas">
+        <h2 id="top">Algunos de nuestros temas</h2>
+        <div class="temas-contenido">
+            <div class="temas-iconos">
+                <img src="./images/icon1.svg" alt="Imagen de nuestros temas - Trabajo Remoto">
+                <h3>Trabajo remoto</h3>
+            </div>
+            <div class="temas-iconos">
+                <img src="./images/icon2.svg" alt="Imagen de nuestros temas - Repensando la Programación">
+                <h3>Repensando la <br> programación</h3>
+            </div>
+            <div class="temas-iconos">
+                <img src="./images/icon3.svg" alt="Imagen de nuestros temas - Bases del Código">
+                <h3>Bases del código</h3>
+            </div>
+            <div class="temas-iconos">
+                <img src="./images/icon4.svg" alt="Imagen de nuestros temas - Seguridad Informática">
+                <h3>Seguridad informática</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section class="novedades">
+        <div class="novedades-diagonal">
+            <div class="novedades-contenido">
+                <h2>¿Querés las últimas novedades?</h2>
+                <div class="boton-novedades">
+                    <button id="boton_novedades">ESCUCHÁ LOS EPISODIOS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>       
+        <h4>&#169;2019- Hello blue pale dot</h4>
+        <div class="footer-links">
+            <a href="https://www.spotify.com/ar/" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
