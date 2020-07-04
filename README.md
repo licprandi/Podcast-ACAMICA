@@ -1,2 +1,2 @@
 # Podcast-ACAMICA
-Proyecto Podcast ACAMICA - HTML y CSS
+Primer Proyecto ACAMICA - Web de Podcast usando HTML y CSS
